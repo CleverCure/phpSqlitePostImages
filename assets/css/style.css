@@ -1,0 +1,25 @@
+div {
+    margin: 20px 0;
+}
+
+#preview_image {
+    max-width: 600px;
+}
+
+table {
+    margin-top: 50px;
+    max-width: 1000px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #999;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+.td_image img {
+    max-width: 200px;
+}
