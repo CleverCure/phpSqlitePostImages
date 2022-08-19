@@ -9,7 +9,7 @@ try {
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         image_title TEXT NOT NULL,
         image_name TEXT NOT NULL,
-        created_at TEXT NOT NULL
+        created_at INTEGER NOT NULL
     )");
 } catch (Exception $e) {
     exit('DbConnectError:'.$e->getMessage());
