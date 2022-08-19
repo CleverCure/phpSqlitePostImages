@@ -49,7 +49,7 @@ if ($images_count < 1) {
         <input type="hidden" name="MAX_FILE_SIZE" value="1000000">
         <div>画像（1MB以下のjpgかpng）<br><input id="post_image" type="file" name="post_image" accept=".jpg,.jpeg,.JPG,.JPEG,.png,.PNG" required></div>
         <div><img id="preview_image" src=""></div>
-        <div>画像タイトル <input type="text" name="image_title" maxlength="30" placeholder="30文字以内"></div>
+        <div>画像タイトル <input type="text" name="image_title" maxlength="30" placeholder="30文字以内" required></div>
         <div><input id="submit" type="submit" value="送信"></div>
         <input type="hidden" name="csrf" value="<?=$csrf?>">
     </form>
