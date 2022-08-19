@@ -7,8 +7,8 @@ try {
     // テーブル作成
     $pdo->exec("CREATE TABLE IF NOT EXISTS images(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        image_title TEXT NOT NULL DEFAULT '',
-        image_name TEXT NOT NULL DEFAULT '',
+        image_title TEXT NOT NULL,
+        image_name TEXT NOT NULL,
         created_at TEXT NOT NULL
     )");
 } catch (Exception $e) {
